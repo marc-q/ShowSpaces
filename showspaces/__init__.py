@@ -15,12 +15,10 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program; if not, see <http://www.gnu.org/licenses/>.
 
-import os
-
 import gi
 gi.require_version('Gedit', '3.0')
 gi.require_version('Gtk', '3.0')
-from gi.repository import GObject, Gio, GLib, Gtk, GtkSource, Gedit
+from gi.repository import GObject, Gtk, GtkSource, Gedit
 
 class ShowSpacesPlugin(GObject.Object, Gedit.ViewActivatable):
     __gtype_name__ = "ShowSpacesPlugin"
