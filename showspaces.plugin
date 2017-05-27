@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=showspaces
+IAge=3
+Name=Show Spaces
+Description=Shows whitespace characters.
+Authors=Marc Volker Dickmann  <hq@devdiary.org>
+Copyright=Copyright © 2017 Marc Volker Dickmann
+Website=http://www.devdiary.org
